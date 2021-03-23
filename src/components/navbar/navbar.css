@@ -1,0 +1,24 @@
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    background: #374148;
+    padding: 0px 25px;
+  }
+}
+.nav-link {
+  color: #fff;
+  padding: 15px 25px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.nav-link:hover {
+  background: #2c3338;
+  color: #fff;
+}
+.nav-link.active {
+  background: #2c3338;
+}
